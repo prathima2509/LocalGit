@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="17509" started-at="2020-02-26T12:54:06Z" finished-at="2020-02-26T12:54:23Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="17509" started-at="2020-02-26T12:54:06Z" finished-at="2020-02-26T12:54:23Z">
+      <class name="com.qa.hubspot.test.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hubspot.test.LoginPageTest@5c3bd550]" name="setUp" is-config="true" duration-ms="6648" started-at="2020-02-26T12:54:06Z" finished-at="2020-02-26T12:54:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLoginPagetitletest()[pri:1, instance:com.qa.hubspot.test.LoginPageTest@5c3bd550]" name="verifyLoginPagetitletest" duration-ms="10111" started-at="2020-02-26T12:54:12Z" finished-at="2020-02-26T12:54:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPagetitletest -->
+        <test-method status="PASS" signature="verifySignUpLinkTest()[pri:2, instance:com.qa.hubspot.test.LoginPageTest@5c3bd550]" name="verifySignUpLinkTest" duration-ms="78" started-at="2020-02-26T12:54:23Z" finished-at="2020-02-26T12:54:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignUpLinkTest -->
+        <test-method status="PASS" signature="LoginTest()[pri:3, instance:com.qa.hubspot.test.LoginPageTest@5c3bd550]" name="LoginTest" duration-ms="624" started-at="2020-02-26T12:54:23Z" finished-at="2020-02-26T12:54:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+      </class> <!-- com.qa.hubspot.test.LoginPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
