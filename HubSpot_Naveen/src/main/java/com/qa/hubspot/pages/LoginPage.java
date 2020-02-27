@@ -27,12 +27,12 @@ public class LoginPage extends TestBase{
 	{
 		return driver.findElement(signupLink).isDisplayed();
 	}
-	public void doLogin(String un, String pwd)
+	public HomePage doLogin(String un, String pwd)
 	{
 		driver.findElement(username).sendKeys(un);
 		driver.findElement(password).sendKeys(pwd);
 		driver.findElement(loginButton).click();
 		
-		//return new HomePage(driver);
+		return new HomePage(driver);
 	}
 }
