@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Hub Spot Regression suite]">
+  <test thread-count="5" name="Hub spot functional REgression Test(failed)">
+    <classes>
+      <class name="com.qa.hubspot.test.LoginPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="LoginTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.qa.hubspot.test.LoginPageTest -->
+      <class name="com.qa.hubspot.test.HomePageTest">
+        <methods>
+          <include name="verifyhomepageheader"/>
+          <include name="verifyLoggedinUser"/>
+          <include name="tearDown"/>
+          <include name="verifyHomePageTitle"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.qa.hubspot.test.HomePageTest -->
+    </classes>
+  </test> <!-- Hub spot functional REgression Test(failed) -->
+</suite> <!-- Failed suite [Hub Spot Regression suite] -->

@@ -6,6 +6,7 @@
       <class name="com.qa.hubspot.test.HomePageTest">
         <methods>
           <include name="verifyhomepageheader"/>
+          <include name="verifyLoggedinUser"/>
           <include name="tearDown"/>
           <include name="verifyHomePageTitle"/>
           <include name="setUp"/>
