@@ -43,7 +43,7 @@ public class LoginPageTest extends TestBase{
 	loginpage.doLogin(prop.getProperty("username"), prop.getProperty("password"));
 	}
 	
-	//@AfterTest
+	@AfterTest
 	public void tearDown(){
 		driver.quit();
 	}

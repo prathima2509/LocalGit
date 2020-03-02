@@ -33,23 +33,30 @@ public class HomePageTest extends TestBase{
 	}
 	
 	@Test(priority=1)
-	public void verifyHomePageTitle()
-	{	homepage.clickOnLogo();
+	public void verifyHomePageTitle() throws InterruptedException
+	
+	{	Thread.sleep(5000);
+		homepage.clickOnLogo();
+		Thread.sleep(5000);
 		String title = homepage.getHomePagetitle();
 		System.out.println("home page title is: "+title);
-		Assert.assertEquals(title, "Reports Dashboards");
+		Assert.assertEquals(title, "Reports dashboard");
 	}
 	@Test(priority=2)
-	public void verifyhomepageheader()
-	{	homepage.clickOnLogo();
-		String header = homepage.getHomePageHeader();
+	public void verifyhomepageheader() throws InterruptedException
+	{	Thread.sleep(5000); 
+	homepage.clickOnLogo();
+	Thread.sleep(5000);
+	String header = homepage.getHomePageHeader();
 		System.out.println(header+" this is the header");
-		Assert.assertEquals(header, "sales Dashboard");
+		Assert.assertEquals(header, "Sales Dashboard");
 	}
 	@Test(priority=3)
-	public void verifyLoggedinUser()
-	{	homepage.clickOnLogo();
-		String user = homepage.getLoggedInUserAccountName();
+	public void verifyLoggedinUser() throws InterruptedException
+	{	Thread.sleep(5000);
+	homepage.clickOnLogo();
+	Thread.sleep(5000);
+	String user = homepage.getLoggedInUserAccountName();
 		System.out.println(user+" this is the user");
 		Assert.assertEquals(user, "AccountNo1");
 	}
